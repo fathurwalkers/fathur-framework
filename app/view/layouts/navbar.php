@@ -6,18 +6,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
+
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo url('/') ?>">Home</a>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo url('post') ?>">Post</a>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo url('about') ?>">About</a>
                 </li>
+                
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo url('contact') ?>">Contact</a>
                 </li>
+                
             </ul>
         </div>
     </div>
