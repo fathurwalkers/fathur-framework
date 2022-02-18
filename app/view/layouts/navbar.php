@@ -22,7 +22,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo url('contact') ?>">Contact</a>
                 </li>
-                
+
             </ul>
         </div>
     </div>
