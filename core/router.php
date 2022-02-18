@@ -22,19 +22,16 @@ class Router
         $uri = explode('/', trim(strtolower($uri), '/'));
 
         // controller
-        if (!empty($uri[0])) {
-            
+        if (!empty($uri[0])) {   
             $controller = $uri[0] . 'Controller';
             unset($uri[0]);
             $controller = 'App\Controller\\' . $controller;
-
             if (class_exists($controller)) {
                 $this->controller = $controller;
             } else {
                 abort('404');
             }
         }
-
 
         $class = $this->controller;
         $class = new $class;
